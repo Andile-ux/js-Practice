@@ -1,4 +1,5 @@
-let result = 90;
+let tekeResult = prompt('please enter your result: ');
+let result = parseInt(tekeResult);
 let distinction = result>=85;
 let excemption = result >= 75 && result < 85;
 let achieved = result>= 50 && result < 75;
@@ -6,7 +7,7 @@ let notAchieved = result < 50 && result >= 0;
 let didNotWrite = 0;
 
 
-function pn()
+function marker()
 {
     if(result>0)
     {
