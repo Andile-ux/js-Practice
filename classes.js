@@ -7,6 +7,9 @@ class person
         this.age = age;
     }
 
+
+
+
     // function getName() {
     //     this.name = prompt("please enter your name: ")
         
